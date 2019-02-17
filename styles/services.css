@@ -1,0 +1,15 @@
+.services {
+	width:46%;
+	align:center;
+	font-size:16px;
+}
+
+.services:last-child{
+	float:left;
+}
+
+@media (max-width: 40em) {
+	.services {
+		width:100%;
+	}
+}
